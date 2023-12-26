@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gym{
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.left{
+    background-color:blue;
+    padding: 20px;
+    background-size: cover;
+}
+.left a{
+    color: white;   
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500; 
+}
+.left a:hover{
+    border-bottom:3px solid white;
+    transition: 0.5s;
+}
+.left li{
+    margin: 0px 15px;
+}
+
+/* .right{
+   background-color:whitesmoke; 
+} */
+.mine{
+    font-size:20px;
+}
+.image{
+    background-image: url("../public/image/Qatar.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+.bing{
+    background-color:blue;
+    color: white;
+    font-size: 15px;
+  }
+  .welcome{
+    padding: 30px 0px;
+    text-align: center;
+    width: 93%;
+  }
+ 
+
+
+.btn-signup{
+border:2px solid white;
+border-radius:10%;
+padding:10px;
+font-weight: 500px;
+font-size:14px;
+color:white;
+margin:0 12px ;
+
+}
+
+/* .btn-signup:hover{
+    background-color: white;
+    color:blue;
+   
+
+} */
+
+  .pack{
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+  }
+  .pack p{
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+
+  .image1 img{
+  width: 100%;
+  height:100%;
+  }
+  /* .plaut{
+    border: 2px solid black;
+  } */
+   .about-div{
+    box-shadow: 00 5px 13px grey;
+  }
+  .about-div2{
+    /* margin-top: 10px; */
+    padding: 10px 10px 1px 10px;
+    font-size: 14px;
+
+  }
+  .about-div:hover{
+    background-color:blue ;
+    color: white;
+    transition:0.45s;
+
+  }
+  .image2{
+    background-image: url("../public/image/Las Vegas.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+  }
+  .holi{
+    text-align: center;
+    margin-top: 30px;
+    font-size:15px;
+    font-weight:400px;
+  }
+  .fowl{
+    text-align: center;
+    margin-top: 30px;
+    font-size:15px;
+    font-weight:400px;
+  }
+  .cross{
+    box-shadow: 00 5px 13px grey;
+    padding: 12px;
+    font-size: 15px;
+  }
+  .cross2{
+    border-radius:90%;
+    padding:10px;
+    
+  }
+  .cross:hover{
+    background-color: blue;
+    color: white;
+    transition:0.45s;
+  }
+  .tea input{
+    width:80%;
+    height:50px;
+    outline: none;
+    border: none;
+    border-radius:15px;
+    padding: 15px;
+  }
+  .tea button{
+    height: 50px;
+    width:70px;
+    background-color:white;
+    color:black;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    padding:15px ;
+    border-radius: 15px;
+  }
+  .tea img{
+    height:20px;
+    width:20px;
+  }
+  .tea p{
+    font: size 15px;
+    font-weight: 500px;
+    color: white;
+  }
+  .tea{
+    background-color: blue;
+  }
+  .tea h4{
+    color: white;
+    font-size: 20px;
+  }
+  .sell{
+    margin-top: 20px;
+  }
+  .tea button:hover{
+    background-color: blue;
+    color: white;
+    transition: 0.45s;
+  }
+  .tea input:hover{
+    background-color: blue;
+    color: white;
+    transition: 0.45s;
+  }
+  .pict{
+    background-image: url("../public/image/London.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:200vh;
+    
+  
+  }
+  .faith{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 15px;
+    border:none;
+    border-radius: 10px;
+    margin:auto;
+background:linear-gradient(blue, skyblue);
+box-shadow: 00 5px 13px grey;
+  }
+  .real{
+    margin: 5px;
+    height: 50px;
+    padding: 7px;
+    border: 0px;
+    border-radius: 5px;
+    width: 350px;
+    outline: none;
+  
+  }
+  .afo{
+    color: white;
+  }
+  .roman{
+    color: white;
+    text-align: center;
+  }
+  .yam{
+    height: 30px;
+
+    margin: 5px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: blue;
+    width: 350px;
+    height: 50px;
+  }
+  #first{
+    color: red;
+    font-weight: 500px;
+    font-size:15px;
+  }
+  #second{
+    color: red;
+    font-weight: 500px;
+    font-size:15px;
+  }
+  #third{
+    color: red;
+    font-weight: 500px;
+    font-size:15px;
+  }
+  #fourth{
+    color: red;
+    font-weight: 500px;
+    font-size:15px;
+  }
+  #fifth{
+    color: red;
+    font-weight: 500px;
+    font-size:15px;
+  }
+  #sixth{
+    color: red;
+    font-weight: 500px;
+    font-size:15px;
+  }
+  #phil{
+    color: red;
+    font-weight: 500px;
+    font-size:15px;
+  }
+  .line{
+    color: white;
+    margin-top:20px;
+  }
+  .yeet{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+
+
+
+
+
+
+ 
+  
+
+
+  
